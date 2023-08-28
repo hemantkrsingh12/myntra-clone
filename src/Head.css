@@ -1,0 +1,38 @@
+.container {
+  background-color: teal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  margin-bottom: 10px;
+  z-index: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sidebar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  font-size: 40px;
+}
+.sidebar button {
+  display: inline-block;
+  border-radius: 20px;
+  background-color: #add8e6;
+  color: #000000;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background-color: #46486c;
+  color: #ffffff;
+}
